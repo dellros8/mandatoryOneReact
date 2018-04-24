@@ -26,3 +26,43 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+.divwrapper {
+  margin-top: 100px;
+  width: 325px;
+  background-color: rgb(245, 245, 245);
+  padding: 20px;
+}
+
+.form {
+  margin-bottom: 10px;
+}
+
+.todoitem {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightblue;
+  border-radius: 2px;
+  margin: 2px;
+  padding: 10px;
+}
+
+.todoitem button {
+  margin-left: auto;
+}
+
+.form input {
+  margin-right: 25px;
+  height: 1.5em;
+  font-size: 1.5em;
+}
+
+.form button {
+  height: 1.5em;
+  font-size: 1.5em;
+}
